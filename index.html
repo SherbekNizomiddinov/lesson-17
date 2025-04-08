@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>🌤 Global Weather</title>
+  <link rel="stylesheet" href="style.css">
+  </head>
+<body>
+    <template class="js-template">
+        <div class="weather-container">
+            <div class="top-section">
+                <div class="weather-box">
+                    <h2 class="js-city">Toshkent</h2>
+                    <span class="js-temp">25°</span><img class="js-icon" src="#" alt=""><br>
+                    <span class="js-desc" >Asosan bulutli, </span><span class="js-temp1">25°C.</span><br>
+                    <div class="details">
+                        <div>Namlik: <strong class="js-humidity">38%</strong></div>
+                        <div>Shamol: <strong class="js-wind">E 25 km/s</strong></div>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="footer-section">
+                <div>
+                    Quyosh chiqishi🌞<br><span class="js-sunrise highlight">6:05</span>
+                </div>
+                <div>
+                    Quyosh botishi🌥️<br><span class="js-sunset highlight">19:03</span>
+                </div>
+                
+            </div>
+       </div>
+    </template>
+  <form class="js-weather-card weather-card">
+    <h1>Ob-havo⛅</h1>
+    <input class="js-cityInput" type="text" placeholder="Shaxar kiriting..." />
+    <button>Qidirish</button>
+
+    <div class="js-weatherResult result">
+      <!-- Ob-havo ma'lumotlari shu yerga chiqariladi -->
+       <div class="weather-container">
+        <div class="top-section">
+            <div class="weather-box">
+                <h2 class="js-city">Toshkent</h2>
+                <span class="js-temp">25°</span><img class="js-icon" src="#" alt=""><br>
+                <span class="js-desc" >Asosan bulutli, </span><span class="js-temp1">25°C.</span><br>
+                <div class="details">
+                    <div>Namlik: <strong class="js-humidity">38%</strong></div>
+                    <div>Shamol: <strong>E 25 km/s</strong></div>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="footer-section">
+            <div>
+                Quyosh chiqishi<br><span class="highlight">6:05</span>
+            </div>
+            <div>
+                Quyosh botishi<br><span class="highlight">19:03</span>
+            </div>
+            
+        </div>
+       </div>
+    </div>
+  </form>
+
+  <script src="practise.js"></script> <!-- JS qismini o'zing yozasan -->
+</body>
+</html>
